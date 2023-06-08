@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="main.js">
-  </script>
-  <button onclick="playerMove = 'rock'">Hello</button>
+  <div>
+    <button class="play-btn">Rock</button>
+    <button class="play-btn">Paper</button>
+    <button class="play-btn">Scissors</button>
+    <button onclick="myFunction()">RESET</button>
+  </div>
+  <div>
+    <h2 id="header">win 5 times in a row</h2>
+    <p id="para">0: Ties 0: Wins 0: Losses</p>
+    <h4 id="small-header"></h4>
+  </div>
 </body>
 </html>
